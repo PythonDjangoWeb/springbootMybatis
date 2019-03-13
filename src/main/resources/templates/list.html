@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>hello</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+    <!-- 不存在则忽略，显示hello null!(可以通过默认值进行设置)-->
+       <tbody>
+        <span th:text="${users}">Sebastian</span>
+       	<span th:text="${users.code}">Sebastian</span>
+       	<span th:text="${users.data}">Sebastian</span>
+         <tr  th:each="user : ${users.data}">
+            <th scope="row" th:text="${user.id}">1</th>
+             <td th:text="${user.userName_s}">neo</td>
+            <td th:text="${user.userpassword_s}">Otto</td>
+          <!--  <td th:text="${user.age}">6</td>
+            <td><a th:href="@{/toEdit(id=${user.id})}">edit</a></td>
+            <td><a th:href="@{/delete(id=${user.id})}">delete</a></td>  -->
+        </tr> 
+        
+        
+        </tbody>
+</body>
+</html>
