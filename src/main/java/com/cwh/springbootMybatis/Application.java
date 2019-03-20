@@ -16,7 +16,7 @@ import org.springframework.web.servlet.DispatcherServlet;
 
 @SpringBootApplication
 @ServletComponentScan("com.cwh.springbootMybatis")//使用注解的方式注册servlet需要在SpringbootHelloApplication.java中添加@ServletComponentScan注解
-//@ComponentScan("com.cwh.springbootMybatis")
+@ComponentScan("com.cwh.springbootMybatis")
 //@EnableScheduling //开启定时器
 public class Application implements CommandLineRunner{
 

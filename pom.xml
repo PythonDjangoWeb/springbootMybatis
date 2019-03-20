@@ -30,10 +30,10 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
-		 <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-thymeleaf</artifactId>
-        </dependency>	
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -62,32 +62,102 @@
 			<artifactId>gson</artifactId>
 			<version>2.2.4</version>
 		</dependency>
-		
-<!-- ************************************************* -->
-	<dependency>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-logging</artifactId>
-    </dependency>
-   <!--  <dependency>
-        <groupId>org.slf4j</groupId>
-        <artifactId>log4j-over-slf4j</artifactId>
-    </dependency> -->
-     <!-- <dependency>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter</artifactId>
-        <exclusions>
-            <exclusion>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-logging</artifactId>
-            </exclusion>
-        </exclusions>
-     </dependency> -->
-    
-<!-- <dependency> 
-<groupId>org.springframework.boot</groupId>
-<artifactId>spring-boot-starter-log4j2</artifactId>
-</dependency> -->
-<!-- ************************************************* -->
+
+		<!-- ************************************************* -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-logging</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.cedarsoft.commons</groupId>
+			<artifactId>commons</artifactId>
+			<version>6.0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.4</version>
+		</dependency>
+		<dependency>
+			<groupId>com.thoughtworks.xstream</groupId>
+			<artifactId>xstream</artifactId>
+			<version>1.4.9</version>
+		</dependency>
+
+		<!-- ****************************************************** -->
+		<dependency>
+			<groupId>net.sf.json-lib</groupId>
+			<artifactId>json-lib</artifactId>
+			<version>2.4</version>
+			<classifier>jdk15</classifier>
+		</dependency>
+
+		<dependency>
+			<groupId>net.sf.ezmorph</groupId>
+			<artifactId>ezmorph</artifactId>
+			<version>1.0.6</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.mysema.commons</groupId>
+			<artifactId>mysema-commons-lang</artifactId>
+			<version>0.2.4</version>
+		</dependency>
+		<dependency>
+			<groupId>net.sf.staccatocommons</groupId>
+			<artifactId>commons-collections</artifactId>
+			<version>1.2</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-beanutils</groupId>
+			<artifactId>commons-beanutils</artifactId>
+			<version>1.9.2</version>
+		</dependency>
+		<dependency>
+			<groupId>ant</groupId>
+			<artifactId>ant-commons-logging</artifactId>
+			<version>1.6</version>
+		</dependency>
+		<!-- *********************************************** -->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.2.13</version>
+		</dependency>
+
+		<!-- <dependency> <groupId>dom4j</groupId> <artifactId>dom4j</artifactId> 
+			<version>1.6</version> </dependency> -->
+		<!-- <dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>druid</artifactId>
+			<version>1.0.8</version>
+		</dependency> -->
+		<!--  <dependency>
+			<groupId>com.btmatthews.jaxb2_commons</groupId>
+			<artifactId>jaxb2-commons-lang3</artifactId>
+			<version>1.0.0</version>
+		</dependency> -->
+
+
+
+
+
+
+
+
+
+
+
+		<!-- <dependency> <groupId>org.slf4j</groupId> <artifactId>log4j-over-slf4j</artifactId> 
+			</dependency> -->
+		<!-- <dependency> <groupId>org.springframework.boot</groupId> <artifactId>spring-boot-starter</artifactId> 
+			<exclusions> <exclusion> <groupId>org.springframework.boot</groupId> <artifactId>spring-boot-starter-logging</artifactId> 
+			</exclusion> </exclusions> </dependency> -->
+
+		<!-- <dependency> <groupId>org.springframework.boot</groupId> <artifactId>spring-boot-starter-log4j2</artifactId> 
+			</dependency> -->
+		<!-- ************************************************* -->
 	</dependencies>
 
 	<build>

@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.cwh.springbootMybatis.tool.qwe;
 import com.cwh.springbootMybatis.util.GeneralReturn;
 import com.cwh.springbootMybatis.util.JsonUtil;
 import com.cwh.springbootMybatis.util.R;
@@ -28,6 +29,13 @@ public class LoginController extends JsonUtil{
 	
 	@Autowired
 	private  LoginService LoginService;
+	
+	@RequestMapping("/test")
+	public void test(){
+		qwe q = new qwe();
+		Gr = q.abc();
+		writeJson(Gr);
+	}
 	
 	@RequestMapping("/selectListUser")
 	public void  selectListUser(){

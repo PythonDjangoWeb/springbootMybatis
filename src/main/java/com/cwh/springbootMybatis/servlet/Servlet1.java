@@ -8,16 +8,23 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 /**
+ * 
  * 使用注解注册Servlet
  * @WebServlet(urlPatterns="/servlet/servlet1", description="通过注解注册") 
  * 不指定name的情况下，name默认值为类全路径，即org.springboot.sample.servlet.Servlet1
- * @author LingDu
+ * @author 王虎
  */
 //不指定name的情况下，name默认值为类全路径，即com.example.servlet.Servlet2
 @WebServlet(urlPatterns="/servlet/servlet1.action",description="通过注解注册")
 public class Servlet1 extends HttpServlet{
 
+	//日志
+	private Logger logger = LoggerFactory.getLogger(this.getClass());
+	
 	private static final long serialVersionUID = 1L;
 
 	
@@ -46,11 +53,10 @@ public class Servlet1 extends HttpServlet{
 		String id = req.getParameter("id");
 		if(id != null && !id.equals("")){
 			resp.getWriter().append("----------> doPost() id= "+id);
+			logger.info("in Servlet doPost() ",id);
 			return;
 		}
 		resp.getWriter().append("----------> doPost()");
 	}
-	
-	
 	
 }

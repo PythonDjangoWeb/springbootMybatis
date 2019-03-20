@@ -10,19 +10,25 @@ import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 import javax.servlet.annotation.WebFilter;
 
-/**
- * Servlet Filter implementation class ServletFilter
- * 注解注册过滤器：实现 javax.servlet.Filter接口 
- * filterName 是过滤器的名字
- * urlPatterns 是需要过滤的请求 ，这里只过滤servlet/* 下面的所有请求
- */
-@WebFilter(filterName="ServletFilter",urlPatterns="/servlet/*")
-public class ServletFilter implements Filter {
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-	
-	public ServletFilter(){
+/**
+ * Servlet Filter implementation class ServletFilter 注解注册过滤器：实现
+ * javax.servlet.Filter接口 filterName 是过滤器的名字 urlPatterns 是需要过滤的请求
+ * ，这里只过滤servlet/* 下面的所有请求
+ * 
+ * @author 王虎
+ */
+@WebFilter(filterName = "ServletFilter", urlPatterns = "/servlet/*")
+public class ServletFilter implements Filter {
+	//日志
+	private Logger logger = LoggerFactory.getLogger(this.getClass());
+
+	public ServletFilter() {
 		// TODO Auto-generated constructor stub
 	}
+
 	@Override
 	public void destroy() {
 		// TODO Auto-generated method stub
@@ -34,9 +40,11 @@ public class ServletFilter implements Filter {
 			FilterChain arg2) throws IOException, ServletException {
 		// TODO Auto-generated method stub
 		long start = System.currentTimeMillis();
+		logger.info("过滤器时间戳，start{}：" + start);
 		System.out.println("过滤器正在执行...");
 		arg2.doFilter(arg0, arg1);
-		System.out.println("Execute cost="+(System.currentTimeMillis()-start));
+		System.out.println("Execute cost="
+				+ (System.currentTimeMillis() - start));
 	}
 
 	@Override
@@ -45,6 +53,4 @@ public class ServletFilter implements Filter {
 		System.out.println("初始化过滤器。");
 	}
 
-	
-	
 }

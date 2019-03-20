@@ -10,7 +10,7 @@ import com.cwh.springbootMybatis.web.login.entity.Login;
 import com.cwh.springbootMybatis.web.login.mapper.LoginMapper;
 import com.cwh.springbootMybatis.web.login.service.LoginService;
 
-@Service
+@Service("LoginServiceImpl")
 public class LoginServiceImpl implements LoginService{
 
 	GeneralReturn GR;

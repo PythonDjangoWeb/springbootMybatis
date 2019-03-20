@@ -1,0 +1,418 @@
+2019-03-16 10:33:42.711 [main] INFO  com.cwh.springbootMybatis.TestApplication - Starting TestApplication on PC-20181008BUJM with PID 10192 (E:\GITbengku\springbootMybatis\target\classes started by Administrator in E:\GITbengku\springbootMybatis)
+2019-03-16 10:33:42.716 [main] INFO  com.cwh.springbootMybatis.TestApplication - No active profile set, falling back to default profiles: default
+2019-03-16 10:33:43.038 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4445629: startup date [Sat Mar 16 10:33:43 CST 2019]; root of context hierarchy
+2019-03-16 10:33:43.104 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-03-16 10:33:44.527 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-16 10:33:45.429 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 80 (http)
+2019-03-16 10:33:45.446 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-16 10:33:45.447 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-03-16 10:33:45.581 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-16 10:33:45.581 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2544 ms
+2019-03-16 10:33:46.135 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-03-16 10:33:46.137 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'com.cwh.springbootMybatis.servlet.Servlet1' to [/servlet/servlet1.action]
+2019-03-16 10:33:46.137 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'com.cwh.springbootMybatis.servlet.WeiXinServlet' to [/servlet/WeiXinServlet.action]
+2019-03-16 10:33:46.140 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-16 10:33:46.141 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-16 10:33:46.141 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-16 10:33:46.141 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-16 10:33:46.141 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'ServletFilter' to urls: [/servlet/*]
+2019-03-16 10:33:46.470 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-03-16 10:33:46.517 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2019-03-16 10:35:35.006 [main] INFO  com.cwh.springbootMybatis.TestApplication - Starting TestApplication on PC-20181008BUJM with PID 9708 (E:\GITbengku\springbootMybatis\target\classes started by Administrator in E:\GITbengku\springbootMybatis)
+2019-03-16 10:35:35.008 [main] INFO  com.cwh.springbootMybatis.TestApplication - No active profile set, falling back to default profiles: default
+2019-03-16 10:35:35.228 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-03-16 10:35:35.331 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4445629: startup date [Sat Mar 16 10:35:35 CST 2019]; root of context hierarchy
+2019-03-16 10:35:36.196 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-16 10:35:36.712 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 80 (http)
+2019-03-16 10:35:36.723 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-16 10:35:36.724 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-03-16 10:35:36.841 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-16 10:35:36.841 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1510 ms
+2019-03-16 10:35:37.392 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-03-16 10:35:37.394 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'com.cwh.springbootMybatis.servlet.Servlet1' to [/servlet/servlet1.action]
+2019-03-16 10:35:37.394 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'com.cwh.springbootMybatis.servlet.WeiXinServlet' to [/servlet/WeiXinServlet.action]
+2019-03-16 10:35:37.397 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-16 10:35:37.398 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-16 10:35:37.398 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-16 10:35:37.398 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-16 10:35:37.398 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'ServletFilter' to urls: [/servlet/*]
+2019-03-16 10:35:37.816 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4445629: startup date [Sat Mar 16 10:35:35 CST 2019]; root of context hierarchy
+2019-03-16 10:35:37.876 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/Good/list]}" onto public java.lang.String com.cwh.springbootMybatis.web.good.controller.GoodController.list(org.springframework.ui.Model)
+2019-03-16 10:35:37.877 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/Good/selectListGoods]}" onto public com.cwh.springbootMybatis.util.R com.cwh.springbootMybatis.web.good.controller.GoodController.selectListGoods()
+2019-03-16 10:35:37.880 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/Login/list]}" onto public java.lang.String com.cwh.springbootMybatis.web.login.controller.LoginController.list(org.springframework.ui.Model)
+2019-03-16 10:35:37.881 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/Login/one/{id}],methods=[GET]}" onto public java.lang.String com.cwh.springbootMybatis.web.login.controller.LoginController.one(org.springframework.ui.Model,int)
+2019-03-16 10:35:37.881 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/Login/selectListUser]}" onto public void com.cwh.springbootMybatis.web.login.controller.LoginController.selectListUser()
+2019-03-16 10:35:37.881 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/Login/userOne]}" onto public java.lang.String com.cwh.springbootMybatis.web.login.controller.LoginController.userOne(org.springframework.ui.Model)
+2019-03-16 10:35:37.882 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getUserInfo/insert]}" onto public org.springframework.web.servlet.ModelAndView com.cwh.springbootMybatis.web.user.controller.UserController.insert(java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpSession)
+2019-03-16 10:35:37.882 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/JsapiTicket/share.html]}" onto public void com.cwh.springbootMybatis.weixin.controller.JsapiTicketController.share(java.lang.String) throws java.lang.Exception
+2019-03-16 10:35:37.883 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/main/wxSettingUpdate.html]}" onto public java.lang.String com.cwh.springbootMybatis.weixin.controller.WxSettingController.update(com.cwh.springbootMybatis.weixin.entity.WxSetting)
+2019-03-16 10:35:37.883 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/main/wxSettingList.html]}" onto public org.springframework.web.servlet.ModelAndView com.cwh.springbootMybatis.weixin.controller.WxSettingController.getList(org.springframework.web.servlet.ModelAndView)
+2019-03-16 10:35:37.884 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/GetSDK]}" onto public void com.cwh.springbootMybatis.weixin.controller.WxSettingController.getSDK(java.lang.String,javax.servlet.http.HttpServletRequest)
+2019-03-16 10:35:37.885 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-16 10:35:37.886 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-16 10:35:37.913 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-16 10:35:37.913 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-16 10:35:37.947 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-16 10:35:38.199 [main] INFO  o.s.b.a.w.WebMvcAutoConfiguration$WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-03-16 10:35:38.370 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-03-16 10:35:38.371 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-03-16 10:35:38.374 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-03-16 10:35:38.387 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2019-03-16 10:35:38.397 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2019-03-16 10:35:38.421 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-03-16 10:35:38.441 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 80 (http)
+2019-03-16 10:35:38.445 [main] INFO  com.cwh.springbootMybatis.TestApplication - Started TestApplication in 3.754 seconds (JVM running for 4.097)
+2019-03-16 10:57:16.926 [main] INFO  com.cwh.springbootMybatis.TestApplication - Starting TestApplication on PC-20181008BUJM with PID 10480 (E:\GITbengku\springbootMybatis\target\classes started by Administrator in E:\GITbengku\springbootMybatis)
+2019-03-16 10:57:16.929 [main] INFO  com.cwh.springbootMybatis.TestApplication - No active profile set, falling back to default profiles: default
+2019-03-16 10:57:17.235 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4445629: startup date [Sat Mar 16 10:57:17 CST 2019]; root of context hierarchy
+2019-03-16 10:57:17.271 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-03-16 10:57:18.287 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-16 10:57:18.918 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 80 (http)
+2019-03-16 10:57:18.930 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-16 10:57:18.932 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-03-16 10:57:19.056 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-16 10:57:19.056 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1821 ms
+2019-03-16 10:57:19.583 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-03-16 10:57:19.584 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'com.cwh.springbootMybatis.servlet.Servlet1' to [/servlet/servlet1.action]
+2019-03-16 10:57:19.585 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'com.cwh.springbootMybatis.servlet.WeiXinServlet' to [/servlet/WeiXinServlet.action]
+2019-03-16 10:57:19.587 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-16 10:57:19.587 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-16 10:57:19.587 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-16 10:57:19.587 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-16 10:57:19.588 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'ServletFilter' to urls: [/servlet/*]
+2019-03-16 10:57:20.024 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4445629: startup date [Sat Mar 16 10:57:17 CST 2019]; root of context hierarchy
+2019-03-16 10:57:20.088 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/Good/list]}" onto public java.lang.String com.cwh.springbootMybatis.web.good.controller.GoodController.list(org.springframework.ui.Model)
+2019-03-16 10:57:20.089 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/Good/selectListGoods]}" onto public com.cwh.springbootMybatis.util.R com.cwh.springbootMybatis.web.good.controller.GoodController.selectListGoods()
+2019-03-16 10:57:20.092 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/Login/list]}" onto public java.lang.String com.cwh.springbootMybatis.web.login.controller.LoginController.list(org.springframework.ui.Model)
+2019-03-16 10:57:20.093 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/Login/one/{id}],methods=[GET]}" onto public java.lang.String com.cwh.springbootMybatis.web.login.controller.LoginController.one(org.springframework.ui.Model,int)
+2019-03-16 10:57:20.093 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/Login/selectListUser]}" onto public void com.cwh.springbootMybatis.web.login.controller.LoginController.selectListUser()
+2019-03-16 10:57:20.093 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/Login/userOne]}" onto public java.lang.String com.cwh.springbootMybatis.web.login.controller.LoginController.userOne(org.springframework.ui.Model)
+2019-03-16 10:57:20.094 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getUserInfo/insert]}" onto public org.springframework.web.servlet.ModelAndView com.cwh.springbootMybatis.web.user.controller.UserController.insert(java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpSession)
+2019-03-16 10:57:20.094 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/JsapiTicket/share.html]}" onto public void com.cwh.springbootMybatis.weixin.controller.JsapiTicketController.share(java.lang.String) throws java.lang.Exception
+2019-03-16 10:57:20.095 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/main/wxSettingUpdate.html]}" onto public java.lang.String com.cwh.springbootMybatis.weixin.controller.WxSettingController.update(com.cwh.springbootMybatis.weixin.entity.WxSetting)
+2019-03-16 10:57:20.095 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/main/wxSettingList.html]}" onto public org.springframework.web.servlet.ModelAndView com.cwh.springbootMybatis.weixin.controller.WxSettingController.getList(org.springframework.web.servlet.ModelAndView)
+2019-03-16 10:57:20.095 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/GetSDK]}" onto public void com.cwh.springbootMybatis.weixin.controller.WxSettingController.getSDK(java.lang.String,javax.servlet.http.HttpServletRequest)
+2019-03-16 10:57:20.097 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-16 10:57:20.098 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-16 10:57:20.124 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-16 10:57:20.124 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-16 10:57:20.160 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-16 10:57:20.436 [main] INFO  o.s.b.a.w.WebMvcAutoConfiguration$WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-03-16 10:57:20.631 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-03-16 10:57:20.633 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-03-16 10:57:20.638 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-03-16 10:57:20.653 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2019-03-16 10:57:20.666 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2019-03-16 10:57:20.692 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-03-16 10:57:20.714 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 80 (http)
+2019-03-16 10:57:20.720 [main] INFO  com.cwh.springbootMybatis.TestApplication - Started TestApplication in 4.236 seconds (JVM running for 4.642)
+2019-03-16 11:00:00.537 [main] INFO  com.cwh.springbootMybatis.TestApplication - Starting TestApplication on PC-20181008BUJM with PID 11252 (E:\GITbengku\springbootMybatis\target\classes started by Administrator in E:\GITbengku\springbootMybatis)
+2019-03-16 11:00:00.539 [main] INFO  com.cwh.springbootMybatis.TestApplication - No active profile set, falling back to default profiles: default
+2019-03-16 11:00:00.756 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-03-16 11:00:00.840 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4445629: startup date [Sat Mar 16 11:00:00 CST 2019]; root of context hierarchy
+2019-03-16 11:00:01.661 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-16 11:00:02.193 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 80 (http)
+2019-03-16 11:00:02.205 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-16 11:00:02.207 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-03-16 11:00:02.328 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-16 11:00:02.328 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1488 ms
+2019-03-16 11:00:02.832 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-03-16 11:00:02.833 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'com.cwh.springbootMybatis.servlet.Servlet1' to [/servlet/servlet1.action]
+2019-03-16 11:00:02.834 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'com.cwh.springbootMybatis.servlet.WeiXinServlet' to [/servlet/WeiXinServlet.action]
+2019-03-16 11:00:02.837 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-16 11:00:02.838 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-16 11:00:02.838 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-16 11:00:02.838 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-16 11:00:02.838 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'ServletFilter' to urls: [/servlet/*]
+2019-03-16 11:00:03.228 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4445629: startup date [Sat Mar 16 11:00:00 CST 2019]; root of context hierarchy
+2019-03-16 11:00:03.277 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/Good/list]}" onto public java.lang.String com.cwh.springbootMybatis.web.good.controller.GoodController.list(org.springframework.ui.Model)
+2019-03-16 11:00:03.278 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/Good/selectListGoods]}" onto public com.cwh.springbootMybatis.util.R com.cwh.springbootMybatis.web.good.controller.GoodController.selectListGoods()
+2019-03-16 11:00:03.282 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/Login/list]}" onto public java.lang.String com.cwh.springbootMybatis.web.login.controller.LoginController.list(org.springframework.ui.Model)
+2019-03-16 11:00:03.282 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/Login/selectListUser]}" onto public void com.cwh.springbootMybatis.web.login.controller.LoginController.selectListUser()
+2019-03-16 11:00:03.282 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/Login/userOne]}" onto public java.lang.String com.cwh.springbootMybatis.web.login.controller.LoginController.userOne(org.springframework.ui.Model)
+2019-03-16 11:00:03.283 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/Login/one/{id}],methods=[GET]}" onto public java.lang.String com.cwh.springbootMybatis.web.login.controller.LoginController.one(org.springframework.ui.Model,int)
+2019-03-16 11:00:03.283 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getUserInfo/insert]}" onto public org.springframework.web.servlet.ModelAndView com.cwh.springbootMybatis.web.user.controller.UserController.insert(java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpSession)
+2019-03-16 11:00:03.284 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/JsapiTicket/share.html]}" onto public void com.cwh.springbootMybatis.weixin.controller.JsapiTicketController.share(java.lang.String) throws java.lang.Exception
+2019-03-16 11:00:03.284 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/main/wxSettingUpdate.html]}" onto public java.lang.String com.cwh.springbootMybatis.weixin.controller.WxSettingController.update(com.cwh.springbootMybatis.weixin.entity.WxSetting)
+2019-03-16 11:00:03.285 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/main/wxSettingList.html]}" onto public org.springframework.web.servlet.ModelAndView com.cwh.springbootMybatis.weixin.controller.WxSettingController.getList(org.springframework.web.servlet.ModelAndView)
+2019-03-16 11:00:03.285 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/GetSDK]}" onto public void com.cwh.springbootMybatis.weixin.controller.WxSettingController.getSDK(java.lang.String,javax.servlet.http.HttpServletRequest)
+2019-03-16 11:00:03.287 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-16 11:00:03.287 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-16 11:00:03.312 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-16 11:00:03.313 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-16 11:00:03.344 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-16 11:00:03.588 [main] INFO  o.s.b.a.w.WebMvcAutoConfiguration$WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-03-16 11:00:03.760 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-03-16 11:00:03.762 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-03-16 11:00:03.766 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-03-16 11:00:03.779 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2019-03-16 11:00:03.789 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2019-03-16 11:00:03.803 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-03-16 11:00:03.817 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 80 (http)
+2019-03-16 11:00:03.821 [main] INFO  com.cwh.springbootMybatis.TestApplication - Started TestApplication in 3.595 seconds (JVM running for 3.94)
+2019-03-16 12:28:35.432 [main] INFO  com.cwh.springbootMybatis.TestApplication - Starting TestApplication on PC-20181008BUJM with PID 11672 (E:\GITbengku\springbootMybatis\target\classes started by Administrator in E:\GITbengku\springbootMybatis)
+2019-03-16 12:28:35.437 [main] INFO  com.cwh.springbootMybatis.TestApplication - No active profile set, falling back to default profiles: default
+2019-03-16 12:28:35.730 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4445629: startup date [Sat Mar 16 12:28:35 CST 2019]; root of context hierarchy
+2019-03-16 12:28:35.800 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-03-16 12:28:36.664 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-16 12:28:37.499 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 80 (http)
+2019-03-16 12:28:37.516 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-16 12:28:37.517 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-03-16 12:28:37.653 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-16 12:28:37.654 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1924 ms
+2019-03-16 12:28:37.801 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-03-16 12:28:37.806 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-16 12:28:37.806 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-16 12:28:37.807 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-16 12:28:37.807 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-16 12:28:38.201 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4445629: startup date [Sat Mar 16 12:28:35 CST 2019]; root of context hierarchy
+2019-03-16 12:28:38.292 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-16 12:28:38.293 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-16 12:28:38.328 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-16 12:28:38.330 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-16 12:28:38.374 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-16 12:28:38.702 [main] INFO  o.s.b.a.w.WebMvcAutoConfiguration$WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-03-16 12:28:39.506 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-03-16 12:28:39.507 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-03-16 12:28:39.511 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-03-16 12:28:39.528 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2019-03-16 12:28:39.541 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2019-03-16 12:28:39.566 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-03-16 12:28:39.587 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 80 (http)
+2019-03-16 12:28:39.590 [main] INFO  com.cwh.springbootMybatis.TestApplication - Started TestApplication in 4.635 seconds (JVM running for 5.147)
+2019-03-16 14:10:11.016 [main] INFO  com.cwh.springbootMybatis.Application - Starting Application on PC-20181008BUJM with PID 12976 (E:\GITbengku\springbootMybatis\target\classes started by Administrator in E:\GITbengku\springbootMybatis)
+2019-03-16 14:10:11.020 [main] INFO  com.cwh.springbootMybatis.Application - No active profile set, falling back to default profiles: default
+2019-03-16 14:10:11.334 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2ddc8ecb: startup date [Sat Mar 16 14:10:11 CST 2019]; root of context hierarchy
+2019-03-16 14:10:11.383 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-03-16 14:10:12.462 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-16 14:10:13.201 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 80 (http)
+2019-03-16 14:10:13.215 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-16 14:10:13.217 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-03-16 14:10:13.359 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-16 14:10:13.359 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2025 ms
+2019-03-16 14:10:14.107 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-03-16 14:10:14.109 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'com.cwh.springbootMybatis.servlet.Servlet1' to [/servlet/servlet1.action]
+2019-03-16 14:10:14.110 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'com.cwh.springbootMybatis.servlet.WeiXinServlet' to [/servlet/WeiXinServlet.action]
+2019-03-16 14:10:14.112 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-16 14:10:14.113 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-16 14:10:14.113 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-16 14:10:14.113 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-16 14:10:14.113 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'ServletFilter' to urls: [/servlet/*]
+2019-03-16 14:10:14.630 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2ddc8ecb: startup date [Sat Mar 16 14:10:11 CST 2019]; root of context hierarchy
+2019-03-16 14:10:14.702 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/Good/list]}" onto public java.lang.String com.cwh.springbootMybatis.web.good.controller.GoodController.list(org.springframework.ui.Model)
+2019-03-16 14:10:14.703 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/Good/selectListGoods]}" onto public com.cwh.springbootMybatis.util.R com.cwh.springbootMybatis.web.good.controller.GoodController.selectListGoods()
+2019-03-16 14:10:14.706 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/Login/list]}" onto public java.lang.String com.cwh.springbootMybatis.web.login.controller.LoginController.list(org.springframework.ui.Model)
+2019-03-16 14:10:14.706 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/Login/one/{id}],methods=[GET]}" onto public java.lang.String com.cwh.springbootMybatis.web.login.controller.LoginController.one(org.springframework.ui.Model,int)
+2019-03-16 14:10:14.706 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/Login/selectListUser]}" onto public void com.cwh.springbootMybatis.web.login.controller.LoginController.selectListUser()
+2019-03-16 14:10:14.706 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/Login/userOne]}" onto public java.lang.String com.cwh.springbootMybatis.web.login.controller.LoginController.userOne(org.springframework.ui.Model)
+2019-03-16 14:10:14.710 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getUserInfo/insert]}" onto public org.springframework.web.servlet.ModelAndView com.cwh.springbootMybatis.web.user.controller.UserController.insert(java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpSession)
+2019-03-16 14:10:14.711 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/JsapiTicket/share.html]}" onto public void com.cwh.springbootMybatis.weixin.controller.JsapiTicketController.share(java.lang.String) throws java.lang.Exception
+2019-03-16 14:10:14.712 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/main/wxSettingUpdate.html]}" onto public java.lang.String com.cwh.springbootMybatis.weixin.controller.WxSettingController.update(com.cwh.springbootMybatis.weixin.entity.WxSetting)
+2019-03-16 14:10:14.712 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/main/wxSettingList.html]}" onto public org.springframework.web.servlet.ModelAndView com.cwh.springbootMybatis.weixin.controller.WxSettingController.getList(org.springframework.web.servlet.ModelAndView)
+2019-03-16 14:10:14.713 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/GetSDK]}" onto public void com.cwh.springbootMybatis.weixin.controller.WxSettingController.getSDK(java.lang.String,javax.servlet.http.HttpServletRequest)
+2019-03-16 14:10:14.715 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-16 14:10:14.715 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-16 14:10:14.751 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-16 14:10:14.751 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-16 14:10:14.803 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-16 14:10:15.121 [main] INFO  o.s.b.a.w.WebMvcAutoConfiguration$WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-03-16 14:10:15.310 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-03-16 14:10:15.312 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-03-16 14:10:15.316 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-03-16 14:10:15.332 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2019-03-16 14:10:15.348 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2019-03-16 14:10:15.377 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-03-16 14:10:15.396 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 80 (http)
+2019-03-16 14:10:15.401 [main] INFO  com.cwh.springbootMybatis.Application - Started Application in 5.173 seconds (JVM running for 5.644)
+2019-03-16 14:36:11.792 [main] INFO  com.cwh.springbootMybatis.Application - Starting Application on PC-20181008BUJM with PID 11364 (E:\GITbengku\springbootMybatis\target\classes started by Administrator in E:\GITbengku\springbootMybatis)
+2019-03-16 14:36:11.796 [main] INFO  com.cwh.springbootMybatis.Application - No active profile set, falling back to default profiles: default
+2019-03-16 14:36:12.290 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2ddc8ecb: startup date [Sat Mar 16 14:36:12 CST 2019]; root of context hierarchy
+2019-03-16 14:36:12.309 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-03-16 14:36:13.813 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-16 14:36:14.861 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 80 (http)
+2019-03-16 14:36:14.872 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-16 14:36:14.874 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-03-16 14:36:15.079 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-16 14:36:15.079 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2789 ms
+2019-03-16 14:36:16.165 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-03-16 14:36:16.166 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'com.cwh.springbootMybatis.servlet.Servlet1' to [/servlet/servlet1.action]
+2019-03-16 14:36:16.168 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'com.cwh.springbootMybatis.servlet.WeiXinServlet' to [/servlet/WeiXinServlet.action]
+2019-03-16 14:36:16.177 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-16 14:36:16.177 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-16 14:36:16.177 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-16 14:36:16.177 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-16 14:36:16.177 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'ServletFilter' to urls: [/servlet/*]
+2019-03-16 14:36:17.543 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2ddc8ecb: startup date [Sat Mar 16 14:36:12 CST 2019]; root of context hierarchy
+2019-03-16 14:36:25.367 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/Good/list]}" onto public java.lang.String com.cwh.springbootMybatis.web.good.controller.GoodController.list(org.springframework.ui.Model)
+2019-03-16 14:36:25.368 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/Good/selectListGoods]}" onto public com.cwh.springbootMybatis.util.R com.cwh.springbootMybatis.web.good.controller.GoodController.selectListGoods()
+2019-03-16 14:36:25.370 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/Login/list]}" onto public java.lang.String com.cwh.springbootMybatis.web.login.controller.LoginController.list(org.springframework.ui.Model)
+2019-03-16 14:36:25.371 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/Login/one/{id}],methods=[GET]}" onto public java.lang.String com.cwh.springbootMybatis.web.login.controller.LoginController.one(org.springframework.ui.Model,int)
+2019-03-16 14:36:25.372 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/Login/selectListUser]}" onto public void com.cwh.springbootMybatis.web.login.controller.LoginController.selectListUser()
+2019-03-16 14:36:25.372 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/Login/userOne]}" onto public java.lang.String com.cwh.springbootMybatis.web.login.controller.LoginController.userOne(org.springframework.ui.Model)
+2019-03-16 14:36:25.374 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getUserInfo/insert]}" onto public org.springframework.web.servlet.ModelAndView com.cwh.springbootMybatis.web.user.controller.UserController.insert(java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpSession)
+2019-03-16 14:36:25.374 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/JsapiTicket/share.html]}" onto public void com.cwh.springbootMybatis.weixin.controller.JsapiTicketController.share(java.lang.String) throws java.lang.Exception
+2019-03-16 14:36:25.375 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/main/wxSettingUpdate.html]}" onto public java.lang.String com.cwh.springbootMybatis.weixin.controller.WxSettingController.update(com.cwh.springbootMybatis.weixin.entity.WxSetting)
+2019-03-16 14:36:25.376 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/main/wxSettingList.html]}" onto public org.springframework.web.servlet.ModelAndView com.cwh.springbootMybatis.weixin.controller.WxSettingController.getList(org.springframework.web.servlet.ModelAndView)
+2019-03-16 14:36:25.376 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/GetSDK]}" onto public void com.cwh.springbootMybatis.weixin.controller.WxSettingController.getSDK(java.lang.String,javax.servlet.http.HttpServletRequest)
+2019-03-16 14:36:25.378 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-16 14:36:25.378 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-16 14:36:25.480 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-16 14:36:25.480 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-16 14:36:25.707 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-16 14:36:26.613 [main] INFO  o.s.b.a.w.WebMvcAutoConfiguration$WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-03-16 14:36:26.851 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-03-16 14:36:26.853 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-03-16 14:36:26.858 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-03-16 14:36:26.879 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2019-03-16 14:36:26.906 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2019-03-16 14:36:27.009 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-03-16 14:36:27.154 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 80 (http)
+2019-03-16 14:36:27.160 [main] INFO  com.cwh.springbootMybatis.Application - Started Application in 15.895 seconds (JVM running for 16.41)
+2019-03-16 15:08:25.561 [main] INFO  com.cwh.springbootMybatis.Application - Starting Application on PC-20181008BUJM with PID 13260 (E:\GITbengku\springbootMybatis\target\classes started by Administrator in E:\GITbengku\springbootMybatis)
+2019-03-16 15:08:25.563 [main] INFO  com.cwh.springbootMybatis.Application - No active profile set, falling back to default profiles: default
+2019-03-16 15:08:25.804 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-03-16 15:08:25.859 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2ddc8ecb: startup date [Sat Mar 16 15:08:25 CST 2019]; root of context hierarchy
+2019-03-16 15:08:26.858 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-16 15:08:27.505 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 80 (http)
+2019-03-16 15:08:27.518 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-16 15:08:27.519 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-03-16 15:08:27.694 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-16 15:08:27.695 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1836 ms
+2019-03-16 15:08:28.303 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-03-16 15:08:28.306 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'com.cwh.springbootMybatis.servlet.Servlet1' to [/servlet/servlet1.action]
+2019-03-16 15:08:28.307 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'com.cwh.springbootMybatis.servlet.WeiXinServlet' to [/servlet/WeiXinServlet.action]
+2019-03-16 15:08:28.310 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-16 15:08:28.311 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-16 15:08:28.311 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-16 15:08:28.311 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-16 15:08:28.312 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'ServletFilter' to urls: [/servlet/*]
+2019-03-16 15:08:28.700 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-03-16 15:08:28.910 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2019-03-16 15:12:57.445 [main] INFO  com.cwh.springbootMybatis.TestApplication - Starting TestApplication on PC-20181008BUJM with PID 11592 (E:\GITbengku\springbootMybatis\target\classes started by Administrator in E:\GITbengku\springbootMybatis)
+2019-03-16 15:12:57.448 [main] INFO  com.cwh.springbootMybatis.TestApplication - No active profile set, falling back to default profiles: default
+2019-03-16 15:12:57.676 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-03-16 15:12:57.831 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4445629: startup date [Sat Mar 16 15:12:57 CST 2019]; root of context hierarchy
+2019-03-16 15:12:58.660 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-16 15:12:59.361 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 80 (http)
+2019-03-16 15:12:59.376 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-16 15:12:59.378 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-03-16 15:12:59.536 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-16 15:12:59.537 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1706 ms
+2019-03-16 15:12:59.709 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-03-16 15:12:59.714 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-16 15:12:59.715 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-16 15:12:59.715 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-16 15:12:59.715 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-16 15:13:00.067 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4445629: startup date [Sat Mar 16 15:12:57 CST 2019]; root of context hierarchy
+2019-03-16 15:13:00.155 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-16 15:13:00.156 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-16 15:13:00.201 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-16 15:13:00.201 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-16 15:13:00.262 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-16 15:13:00.602 [main] INFO  o.s.b.a.w.WebMvcAutoConfiguration$WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-03-16 15:13:01.343 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-03-16 15:13:01.345 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-03-16 15:13:01.349 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-03-16 15:13:01.372 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2019-03-16 15:13:01.397 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2019-03-16 15:13:01.433 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-03-16 15:13:01.464 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 80 (http)
+2019-03-16 15:13:01.473 [main] INFO  com.cwh.springbootMybatis.TestApplication - Started TestApplication in 4.382 seconds (JVM running for 4.759)
+2019-03-16 15:13:15.818 [http-nio-80-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-03-16 15:13:15.818 [http-nio-80-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-03-16 15:13:15.856 [http-nio-80-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 38 ms
+2019-03-16 15:14:27.506 [main] INFO  com.cwh.springbootMybatis.TestApplication - Starting TestApplication on PC-20181008BUJM with PID 11368 (E:\GITbengku\springbootMybatis\target\classes started by Administrator in E:\GITbengku\springbootMybatis)
+2019-03-16 15:14:27.509 [main] INFO  com.cwh.springbootMybatis.TestApplication - No active profile set, falling back to default profiles: default
+2019-03-16 15:14:27.779 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-03-16 15:14:27.849 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4445629: startup date [Sat Mar 16 15:14:27 CST 2019]; root of context hierarchy
+2019-03-16 15:14:28.843 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-16 15:14:29.477 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 80 (http)
+2019-03-16 15:14:29.497 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-16 15:14:29.500 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-03-16 15:14:29.704 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-16 15:14:29.705 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1856 ms
+2019-03-16 15:14:30.280 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-03-16 15:14:30.282 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'com.cwh.springbootMybatis.servlet.Servlet1' to [/servlet/servlet1.action]
+2019-03-16 15:14:30.282 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'com.cwh.springbootMybatis.servlet.WeiXinServlet' to [/servlet/WeiXinServlet.action]
+2019-03-16 15:14:30.285 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-16 15:14:30.286 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-16 15:14:30.286 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-16 15:14:30.286 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-16 15:14:30.287 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'ServletFilter' to urls: [/servlet/*]
+2019-03-16 15:14:30.631 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-03-16 15:14:30.677 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2019-03-16 15:17:13.751 [main] INFO  com.cwh.springbootMybatis.TestApplication - Starting TestApplication on PC-20181008BUJM with PID 8932 (E:\GITbengku\springbootMybatis\target\classes started by Administrator in E:\GITbengku\springbootMybatis)
+2019-03-16 15:17:13.753 [main] INFO  com.cwh.springbootMybatis.TestApplication - No active profile set, falling back to default profiles: default
+2019-03-16 15:17:13.999 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-03-16 15:17:14.126 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4445629: startup date [Sat Mar 16 15:17:14 CST 2019]; root of context hierarchy
+2019-03-16 15:17:15.268 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-16 15:17:15.892 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 80 (http)
+2019-03-16 15:17:15.904 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-16 15:17:15.905 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-03-16 15:17:16.074 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-16 15:17:16.074 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1949 ms
+2019-03-16 15:17:16.637 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-03-16 15:17:16.639 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'com.cwh.springbootMybatis.servlet.Servlet1' to [/servlet/servlet1.action]
+2019-03-16 15:17:16.639 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'com.cwh.springbootMybatis.servlet.WeiXinServlet' to [/servlet/WeiXinServlet.action]
+2019-03-16 15:17:16.642 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-16 15:17:16.643 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-16 15:17:16.643 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-16 15:17:16.644 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-16 15:17:16.644 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'ServletFilter' to urls: [/servlet/*]
+2019-03-16 15:17:16.932 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-03-16 15:17:16.971 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2019-03-16 15:18:16.968 [main] INFO  com.cwh.springbootMybatis.Application - Starting Application on PC-20181008BUJM with PID 8828 (E:\GITbengku\springbootMybatis\target\classes started by Administrator in E:\GITbengku\springbootMybatis)
+2019-03-16 15:18:16.971 [main] INFO  com.cwh.springbootMybatis.Application - No active profile set, falling back to default profiles: default
+2019-03-16 15:18:17.202 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2019-03-16 15:18:17.324 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2ddc8ecb: startup date [Sat Mar 16 15:18:17 CST 2019]; root of context hierarchy
+2019-03-16 15:18:18.212 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-03-16 15:18:18.887 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 80 (http)
+2019-03-16 15:18:18.913 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-16 15:18:18.915 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+2019-03-16 15:18:19.116 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-16 15:18:19.117 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1793 ms
+2019-03-16 15:18:19.710 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2019-03-16 15:18:19.712 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'com.cwh.springbootMybatis.servlet.Servlet1' to [/servlet/servlet1.action]
+2019-03-16 15:18:19.712 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'com.cwh.springbootMybatis.servlet.WeiXinServlet' to [/servlet/WeiXinServlet.action]
+2019-03-16 15:18:19.716 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-16 15:18:19.717 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-16 15:18:19.718 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-16 15:18:19.718 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-16 15:18:19.718 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'ServletFilter' to urls: [/servlet/*]
+2019-03-16 15:18:20.266 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2ddc8ecb: startup date [Sat Mar 16 15:18:17 CST 2019]; root of context hierarchy
+2019-03-16 15:18:20.332 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/Good/list]}" onto public java.lang.String com.cwh.springbootMybatis.web.good.controller.GoodController.list(org.springframework.ui.Model)
+2019-03-16 15:18:20.333 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/Good/selectListGoods]}" onto public com.cwh.springbootMybatis.util.R com.cwh.springbootMybatis.web.good.controller.GoodController.selectListGoods()
+2019-03-16 15:18:20.336 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/Login/list]}" onto public java.lang.String com.cwh.springbootMybatis.web.login.controller.LoginController.list(org.springframework.ui.Model)
+2019-03-16 15:18:20.336 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/Login/one/{id}],methods=[GET]}" onto public java.lang.String com.cwh.springbootMybatis.web.login.controller.LoginController.one(org.springframework.ui.Model,int)
+2019-03-16 15:18:20.336 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/Login/selectListUser]}" onto public void com.cwh.springbootMybatis.web.login.controller.LoginController.selectListUser()
+2019-03-16 15:18:20.336 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/Login/userOne]}" onto public java.lang.String com.cwh.springbootMybatis.web.login.controller.LoginController.userOne(org.springframework.ui.Model)
+2019-03-16 15:18:20.339 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/getUserInfo/insert]}" onto public org.springframework.web.servlet.ModelAndView com.cwh.springbootMybatis.web.user.controller.UserController.insert(java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpSession)
+2019-03-16 15:18:20.340 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/JsapiTicket/share.html]}" onto public void com.cwh.springbootMybatis.weixin.controller.JsapiTicketController.share(java.lang.String) throws java.lang.Exception
+2019-03-16 15:18:20.340 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/main/wxSettingUpdate.html]}" onto public java.lang.String com.cwh.springbootMybatis.weixin.controller.WxSettingController.update(com.cwh.springbootMybatis.weixin.entity.WxSetting)
+2019-03-16 15:18:20.341 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/main/wxSettingList.html]}" onto public org.springframework.web.servlet.ModelAndView com.cwh.springbootMybatis.weixin.controller.WxSettingController.getList(org.springframework.web.servlet.ModelAndView)
+2019-03-16 15:18:20.341 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/GetSDK]}" onto public void com.cwh.springbootMybatis.weixin.controller.WxSettingController.getSDK(java.lang.String,javax.servlet.http.HttpServletRequest)
+2019-03-16 15:18:20.343 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-16 15:18:20.343 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-16 15:18:20.377 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-16 15:18:20.378 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-16 15:18:20.422 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-16 15:18:20.721 [main] INFO  o.s.b.a.w.WebMvcAutoConfiguration$WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-03-16 15:18:20.944 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-03-16 15:18:20.946 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-03-16 15:18:20.950 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2019-03-16 15:18:20.968 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2019-03-16 15:18:20.982 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2019-03-16 15:18:21.007 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-03-16 15:18:21.057 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 80 (http)
+2019-03-16 15:18:21.074 [main] INFO  com.cwh.springbootMybatis.Application - Started Application in 4.448 seconds (JVM running for 4.822)
+2019-03-16 15:19:50.875 [http-nio-80-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-03-16 15:19:50.876 [http-nio-80-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2019-03-16 15:19:50.911 [http-nio-80-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 35 ms
